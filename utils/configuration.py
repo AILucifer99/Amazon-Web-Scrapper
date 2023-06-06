@@ -1,5 +1,4 @@
-root_url_apple = "https://www.amazon.com/s?k=apple+iphone&sprefix=apple+%2Caps%2C307&ref=nb_sb_ss_ts-doa-p_3_6"
-root_url_father_day_card = "https://www.amazon.com/s?k=fathers+day+card&sprefix=%2Caps%2C275&ref=nb_sb_ss_sx-trend-t-ps-d_7_0"
+root_url = "https://www.amazon.com/s?k=fathers+day+card&sprefix=%2Caps%2C275&ref=nb_sb_ss_sx-trend-t-ps-d_7_0"
 
 HTTPS_HEADERS = (
 
