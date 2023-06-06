@@ -7,8 +7,8 @@ import pandas as pd
 from tqdm import tqdm  as tqdm
 
 
-# HTTP Request
-webpage = requests.get(config.root_url_father_day_card, headers=config.HTTPS_HEADERS)
+# HTTP Request for Father's Day Webpage of Amazon.com
+webpage = requests.get(config.root_url, headers=config.HTTPS_HEADERS)
 
 # Soup Object containing all data
 soup = BeautifulSoup(webpage.content, "html.parser")
@@ -47,7 +47,6 @@ for link in tqdm(links_list) :
         print("Ignoring and trying to continue....")
         continue
         
-
 amazon_df = pd.DataFrame.from_dict(d)
 amazon_df['title'].replace('', np.nan, inplace=True)
 amazon_df = amazon_df.dropna(subset=['title'])
