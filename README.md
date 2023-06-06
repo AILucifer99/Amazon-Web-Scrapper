@@ -3,10 +3,10 @@ An implementation of a web scrapping application using Python's Requests and Bea
 Code writen for `https://amazon.com/` accordingly.
 
 ## Usage of the Repository
-First, Clone the repository using the command `git clone https://github.com/AILucifer99/Amazon-Web-Scrapper.git`
-Second, Change the working directory using the command `cd Amazon-Web-Scrapper`
-Thirdly, Run the command `pip install -r requirements.txt`
-Finally, In the command prompt type `python main.py` for performing the Web Scrapping. 
+1.   First, Clone the repository using the command `git clone https://github.com/AILucifer99/Amazon-Web-Scrapper.git`
+2.   Second, Change the working directory using the command `cd Amazon-Web-Scrapper`
+3.   Third, Run the command `pip install -r requirements.txt`
+4.   Finally, In the command prompt type `python main.py` for performing the Web Scrapping. 
 
 ## Configuration
 Just change the `root_url` variable inside the `utils` module
